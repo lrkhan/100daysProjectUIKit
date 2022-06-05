@@ -12,9 +12,11 @@ class DetailViewController: UIViewController {
     
     var selectedImage: String?
     
+    var count: String?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = selectedImage
+        title = count
         navigationItem.largeTitleDisplayMode = .never
         // Do any additional setup after loading the view.
         
